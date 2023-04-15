@@ -1,0 +1,61 @@
+{% include 'header.html' %}
+                <main>
+                    <div class="container-fluid px-4">
+                        <center>
+                            <h1 class="mt-4"><b>KANKUISI</b></h1>
+                            <h6>Pengelompokkan Abstrak Skripsi</h6>
+                        </center>
+                        <br><br><br>
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                          <div class="col">
+                            <div class="card text-center">                              
+                              <div class="card-body">
+                                <h3 class="card-title"><center>Cek Clustering</center></h3>
+                                <p class="card-text">Cek pengelompokkan abstrak baru.</p>
+                                <a href="/tesdata" class="btn btn-primary">Cek</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card text-center">
+                              
+                              <div class="card-body">
+                                <h3 class="card-title"><center>Data Skripsi</center></h3>
+                                <p class="card-text">Hasil pengelompokkan Abstrak Skripsi</p>
+                                <a href="/file" class="btn btn-primary">Lihat</a>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          
+                        <!--<ol class="breadcrumb mb-4">
+                        </ol>
+                        <div class="row">
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card bg-primary text-white mb-4">
+                                    <div class="card-body">Data Skripsi </div>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <a class="small text-white stretched-link" href="#">View Details</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card bg-warning text-white mb-4">
+                                    <div class="card-body">Hasil Cluster</div>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <a class="small text-white stretched-link" href="#">View Details</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                    </div>
+                                </div>
+                            </div> -->               
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+        <script src="{{ url_for('static', filename='assets/demo/chart-area-demo.js') }}"></script>
+        <script src="{{ url_for('static', filename='assets/demo/chart-bar-demo.js') }}"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+        <script src="{{ url_for('static', filename='js/datatables-simple-demo.js') }}"></script>
+    </body>
+</html>
